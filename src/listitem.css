@@ -1,0 +1,40 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 5px auto;
+  color: #000000;
+  font-weight: bold;
+  text-align: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.delete {
+  font-size: 16px;
+  cursor: pointer;
+}
+.delete-remove {
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+}
+.marked {
+  font-size: 16px;
+  cursor: pointer;
+}
+.marked-remove {
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+}
+.task-complete {
+  color: rgb(0, 180, 0);
+  font-style: italic;
+}
